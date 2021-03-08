@@ -583,7 +583,7 @@ h4 {
     display: inline-block;
   }
   .header-nav {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -613,5 +613,12 @@ h4 {
   }
   .footer-social {
     justify-content: center;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .container {
+    max-width: 350px;
+    margin: 0 auto;
   }
 }
